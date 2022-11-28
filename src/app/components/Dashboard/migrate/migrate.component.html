@@ -1,0 +1,44 @@
+<mat-tab-group mat-stretch-tabs="true">
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <mat-icon>people</mat-icon>
+            Customer Data
+        </ng-template>
+        <mat-card>
+            <mat-card-header>
+                <span>Customer Information</span>
+            </mat-card-header>
+            <mat-card-content>
+                <div class="">
+                    <span>Kindly match the informations guided by the template below</span><br>
+                    <span>Click <span>here</span>span> to downoad the template</span>
+                </div>
+                <div class="">
+                    <span><h3>Please select file to upload</h3></span>
+                    <input type="file">
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </mat-tab>
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <mat-icon>account_balance</mat-icon>
+            Accounts Data
+        </ng-template>
+        <mat-card>
+            <mat-card-header>
+                <span>Accounts Information</span>
+            </mat-card-header>
+            <mat-card-content>
+                <div class="">
+                    <span><h3>Please select file to upload</h3></span>
+                    <input type="file">
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </mat-tab>
+</mat-tab-group>
+<!-- <mat-grid-list cols="4" rowHeight="100vh">
+    <mat-grid-tile [colspan]="4" [rowspan]="1">
+    </mat-grid-tile>
+</mat-grid-list> -->

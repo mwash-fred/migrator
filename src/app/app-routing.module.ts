@@ -6,6 +6,7 @@ import { MigrateComponent } from './components/Dashboard/migrate/migrate.compone
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 const routes: Routes = [
+  {path: "", redirectTo: '/dashboard/migrate', pathMatch: 'full'},
   {path: "auth", children:[
     {path:"login", component: LoginComponent },
     {path:"otp", component: OTPComponent},
@@ -15,7 +16,6 @@ const routes: Routes = [
     {path:"migrate", component : MigrateComponent},
     {path: "**", component: PageNotFoundComponent}
   ]},
-  {path: "/", redirectTo: '/dashboard/migrate'},
   {path: "**", component: PageNotFoundComponent}
 ];
 

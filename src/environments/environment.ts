@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: "https://api.connect.fortunecredit.co.ke/"
+  baseUrl: "https://api.sit.fortunecredit.co.ke/"
 };
 
 /*
